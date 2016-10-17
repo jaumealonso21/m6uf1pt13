@@ -8,10 +8,15 @@ function crear() {
 }
 
 function mover() {
-    window.finestra.moveBy(50, 0);
+    window.finestra.moveBy(arguments[0], arguments[1]);
     window.finestra.focus();
     
     return true;
 }
 
-
+function moverFix() {
+    window.finestra.moveTo(arguments[0], arguments[1]);
+    window.finestra.focus();
+    
+    return true;
+}

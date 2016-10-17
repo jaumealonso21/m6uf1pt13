@@ -9,8 +9,11 @@
     <body>
         <div>Exercici Finestres</div>
         <input type="button" onclick="crear();" value="Crear finestra" /><br />
-        <input type="button" onclick="mover();" value="Moure finestra 50px dreta" /><br />
-        <input type="button" onclick="mover();" value="Moure finestra 50px dreta" /><br />
+        <input type="button" onclick="mover(50, 0);" value="Moure finestra 50px dreta" /><br />
+        <input type="button" onclick="mover(-50, 0);" value="Moure finestra 50px esquerra" /><br />
+        <input type="button" onclick="mover(0, -50);" value="Moure finestra 50px dalt" /><br />
+        <input type="button" onclick="mover(0, 50);" value="Moure finestra 50px baix" /><br />
+        <input type="button" onclick="moverFix(50, 50);" value="Moure finestra 50px esquerra" /><br />
         <div id="desti">Destí</div>
     </body>
 </html>
