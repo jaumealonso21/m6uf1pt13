@@ -13,7 +13,17 @@
         <input type="button" onclick="mover(-50, 0);" value="Moure finestra 50px esquerra" /><br />
         <input type="button" onclick="mover(0, -50);" value="Moure finestra 50px dalt" /><br />
         <input type="button" onclick="mover(0, 50);" value="Moure finestra 50px baix" /><br />
-        <input type="button" onclick="moverFix(50, 50);" value="Moure finestra 50px esquerra" /><br />
+        <input type="button" onclick="moverFix(50, 50);" value="Moure finestra Pos. Fixa 50 50" /><br />
+        <input type="button" onclick="canviaTamany(50, 0);" value="Canviar ample finestra 50" /><br />
+        <input type="button" onclick="canviaTamany(-50, 0);" value="Canviar ample finestra 50" /><br />
+        <input type="button" onclick="canviaTamany(0, 50);" value="Canviar alçada finestra 50" /><br />
+        <input type="button" onclick="canviaTamany(0, -50);" value="Canviar alçada finestra -50" /><br />
+        <input type="button" onclick="canviaTamany(600, 450);" value="Canviar tamany fixe 600x450" /><br />
+        <input type="button" onclick="window.finestra.close();" value="Tancar" /><br />
+        <br /><br />
+        <input type="text" id="missatge" value="Escriu el missatge..."/>
+        <input type="button" onclick="missatge(document.getElementById('missatge').value);"  value="Envia missatge" /><br />
+        <input type="button" onclick="imatge();"  value="Envia imatge" /><br />
         <div id="desti">Destí</div>
     </body>
 </html>
